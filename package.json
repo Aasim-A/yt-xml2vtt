@@ -1,0 +1,41 @@
+{
+  "name": "yt-xml2vtt",
+  "version": "1.0.0",
+  "description": "Easily convert YouTube caption format from XML to VTT",
+  "main": "./src/Xml2Vtt.js",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aasim-A/yt-xml2vtt.git"
+  },
+  "keywords": [
+    "youtube",
+    "xml",
+    "vtt",
+    "xml2vtt",
+    "caption",
+    "yt-caption",
+    "convert",
+    "converter",
+    "yt"
+  ],
+  "author": "Aasim-A",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aasim-A/yt-xml2vtt/issues"
+  },
+  "homepage": "https://github.com/Aasim-A/yt-xml2vtt#readme",
+  "dependencies": {
+    "fast-xml-parser": "^3.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^1.19.1"
+  }
+}

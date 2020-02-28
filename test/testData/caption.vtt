@@ -1,0 +1,305 @@
+WEBVTT
+Kind: captions
+
+00:00:00.020 --> 00:00:02.610
+20:19 has been an amazing year and I
+
+00:00:02.610 --> 00:00:04.200
+just want to start by saying thank you
+
+00:00:04.200 --> 00:00:06.720
+to everybody if we rewind one year fire
+
+00:00:06.720 --> 00:00:08.700
+ship IO wasn't even a thing yet around
+
+00:00:08.700 --> 00:00:10.590
+that time I was worried that rebranding
+
+00:00:10.590 --> 00:00:12.269
+the channel would end my YouTube career
+
+00:00:12.269 --> 00:00:13.860
+but I'm very thankful that that hasn't
+
+00:00:13.860 --> 00:00:15.299
+been the case and I get to continue
+
+00:00:15.299 --> 00:00:17.760
+doing my dream job in 2020 I'm extremely
+
+00:00:17.760 --> 00:00:19.619
+grateful for the support and wanted to
+
+00:00:19.619 --> 00:00:21.029
+take a few minutes to give you an idea
+
+00:00:21.029 --> 00:00:23.430
+of my plans going into next year but
+
+00:00:23.430 --> 00:00:24.960
+first we've got a t-shirt to giveaway
+
+00:00:24.960 --> 00:00:27.150
+Congrats to waltz of kymaro you're the
+
+00:00:27.150 --> 00:00:29.189
+winner from the JavaScript 2020 video
+
+00:00:29.189 --> 00:00:31.170
+send me a private message on slack with
+
+00:00:31.170 --> 00:00:33.420
+your size and shipping details but don't
+
+00:00:33.420 --> 00:00:34.710
+feel bad if you missed out because at
+
+00:00:34.710 --> 00:00:36.210
+the end of this video I'll announce a
+
+00:00:36.210 --> 00:00:37.710
+second t-shirt winner so you have
+
+00:00:37.710 --> 00:00:40.230
+another chance first things first I'm
+
+00:00:40.230 --> 00:00:42.300
+taking a much-needed vacation throughout
+
+00:00:42.300 --> 00:00:43.950
+most of January I'll be traveling to
+
+00:00:43.950 --> 00:00:46.020
+Australia and New Zealand but the good
+
+00:00:46.020 --> 00:00:47.579
+news is I'm not just going to disappear
+
+00:00:47.579 --> 00:00:50.100
+I'll still be around on slack and I have
+
+00:00:50.100 --> 00:00:52.140
+a bunch of 100 seconds of code videos
+
+00:00:52.140 --> 00:00:54.059
+already pre produced you may have seen a
+
+00:00:54.059 --> 00:00:55.530
+couple of these earlier in the week and
+
+00:00:55.530 --> 00:00:57.180
+the response has been very positive so
+
+00:00:57.180 --> 00:00:59.010
+far the YouTube algorithm doesn't really
+
+00:00:59.010 --> 00:01:00.899
+like short videos like this but I do
+
+00:01:00.899 --> 00:01:02.399
+think they will add a lot of value to
+
+00:01:02.399 --> 00:01:03.870
+the channel overall because they pack a
+
+00:01:03.870 --> 00:01:05.820
+ton of information into a very small
+
+00:01:05.820 --> 00:01:08.159
+package now that being said I have no
+
+00:01:08.159 --> 00:01:09.900
+plans to change the existing format
+
+00:01:09.900 --> 00:01:11.880
+after I get back you'll continue to see
+
+00:01:11.880 --> 00:01:13.650
+plenty of longer format content about
+
+00:01:13.650 --> 00:01:16.080
+firebase flutter angular and so on
+
+00:01:16.080 --> 00:01:17.790
+if you're a pro member you can expect to
+
+00:01:17.790 --> 00:01:19.830
+see new courses in 2020 along with
+
+00:01:19.830 --> 00:01:21.750
+revisions to existing courses in
+
+00:01:21.750 --> 00:01:23.939
+addition I plan to add more advanced
+
+00:01:23.939 --> 00:01:26.549
+modules to individual courses so instead
+
+00:01:26.549 --> 00:01:27.960
+of a course that you take from start to
+
+00:01:27.960 --> 00:01:29.610
+finish you take it to a certain point
+
+00:01:29.610 --> 00:01:31.470
+and then you can branch off to whatever
+
+00:01:31.470 --> 00:01:33.119
+advanced feature you're interested in
+
+00:01:33.119 --> 00:01:34.890
+building with Striped payments for
+
+00:01:34.890 --> 00:01:36.420
+example you would start with a basic
+
+00:01:36.420 --> 00:01:38.640
+intro into handling payments then you
+
+00:01:38.640 --> 00:01:40.200
+could branch off to strong customer
+
+00:01:40.200 --> 00:01:42.750
+authentication or stripe connect or some
+
+00:01:42.750 --> 00:01:44.820
+other advanced concept this would allow
+
+00:01:44.820 --> 00:01:46.860
+me to roll out content more quickly in a
+
+00:01:46.860 --> 00:01:48.960
+modular format and it'll make the
+
+00:01:48.960 --> 00:01:50.369
+content easier for you to consume
+
+00:01:50.369 --> 00:01:51.360
+because you won't have to go through
+
+00:01:51.360 --> 00:01:53.610
+things that you don't care about now a
+
+00:01:53.610 --> 00:01:55.259
+few months ago I started working on a
+
+00:01:55.259 --> 00:01:57.570
+project called spelt fire it's just a
+
+00:01:57.570 --> 00:01:59.040
+simple open source library that
+
+00:01:59.040 --> 00:02:00.840
+integrates firebase into some small
+
+00:02:00.840 --> 00:02:02.549
+components but the main reason I built
+
+00:02:02.549 --> 00:02:04.140
+it in the first place is because I want
+
+00:02:04.140 --> 00:02:05.909
+to roll out several advanced UI
+
+00:02:05.909 --> 00:02:08.340
+components for firebase users that can
+
+00:02:08.340 --> 00:02:10.170
+be dropped into any framework like
+
+00:02:10.170 --> 00:02:12.090
+imagine a file uploader widget that can
+
+00:02:12.090 --> 00:02:13.160
+be dropped into your friend
+
+00:02:13.160 --> 00:02:15.080
+that automatically integrates with your
+
+00:02:15.080 --> 00:02:17.330
+back-end infrastructure or an email pass
+
+00:02:17.330 --> 00:02:19.010
+trought education form that integrates
+
+00:02:19.010 --> 00:02:20.750
+with any design system now that's
+
+00:02:20.750 --> 00:02:22.490
+obviously a very big project that takes
+
+00:02:22.490 --> 00:02:24.200
+a lot of work to do right so I don't
+
+00:02:24.200 --> 00:02:26.150
+want to rush anything out the door the
+
+00:02:26.150 --> 00:02:27.560
+last thing I want to talk about is the
+
+00:02:27.560 --> 00:02:29.930
+migration of angular firebase into fire
+
+00:02:29.930 --> 00:02:30.470
+ship IO
+
+00:02:30.470 --> 00:02:31.940
+all of the full courses have been
+
+00:02:31.940 --> 00:02:33.590
+migrated over already but there's still
+
+00:02:33.590 --> 00:02:35.630
+a lot of individual lessons on angular
+
+00:02:35.630 --> 00:02:37.820
+firebase that need to be migrated that
+
+00:02:37.820 --> 00:02:40.520
+process will be 100% complete by January
+
+00:02:40.520 --> 00:02:42.620
+1st and the angular firebase site will
+
+00:02:42.620 --> 00:02:43.820
+redirect a fire ship
+
+00:02:43.820 --> 00:02:45.410
+none of that content is going away it's
+
+00:02:45.410 --> 00:02:47.150
+just being fully integrated under one
+
+00:02:47.150 --> 00:02:48.650
+roof and you can access it with the
+
+00:02:48.650 --> 00:02:50.870
+angular tag on fire ship at any time I
+
+00:02:50.870 --> 00:02:52.730
+think that's all the updates I have
+
+00:02:52.730 --> 00:02:54.620
+right now thanks again for all of these
+
+00:02:54.620 --> 00:02:56.480
+supports and I will see you again in
+
+00:02:56.480 --> 00:02:59.960
+2020 oh wait I almost forgot we still
+
+00:02:59.960 --> 00:03:01.130
+have another t-shirt to give away
+
+00:03:01.130 --> 00:03:03.440
+Congrats Locke Sean Pereira you are the
+
+00:03:03.440 --> 00:03:04.970
+second t-shirt winner of the video
+
+00:03:04.970 --> 00:03:07.370
+thanks again everybody I will talk to
+
+00:03:07.370 --> 00:03:09.610
+you soon
