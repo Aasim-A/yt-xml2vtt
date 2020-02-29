@@ -33,7 +33,8 @@ Or you can use async await
 ```js
 const xml2vtt = require('yt-xml2vtt');
 
-const vtt = await xml2vtt.Parse(xmlString);
+const vtt = await xml2vtt
+  .Parse(xmlString)
   .catch(err => console.log(`Error while converting XML to VTT : ${err}`));
 /* DO SOMETHING WITH VTT */
 ```
