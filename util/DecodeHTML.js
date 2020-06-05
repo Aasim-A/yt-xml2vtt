@@ -1,6 +1,6 @@
 const codesMap = {
   quot: '"',
-  apos: '\'',
+  apos: "'",
   amp: '&',
   lt: '<',
   gt: '>',

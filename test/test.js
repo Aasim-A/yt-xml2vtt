@@ -1,5 +1,5 @@
 const fs = require('fs');
-const xml2vtt = require('../');
+const xml2vtt = require('..');
 
 const Reset = '\x1b[0m';
 const Bright = '\x1b[1m';
