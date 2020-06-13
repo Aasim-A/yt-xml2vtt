@@ -6,11 +6,9 @@ function Convert(newRes) {
   let vttText = 'WEBVTT\nKind: captions\n\n';
 
   newRes.forEach((item, index) => {
-    const currEnd = parseFloat(item.attr.end);
+    const currEnd = item.attr.end;
     const nextStart =
-      index + 1 === newRes.length
-        ? 0
-        : parseFloat(newRes[index + 1].attr.start);
+      index + 1 === newRes.length ? 0 : newRes[index + 1].attr.start;
     const end = currEnd > nextStart ? nextStart : currEnd;
     vttText += `${formatTime(item.attr.start)} --> ${formatTime(
       nextStart === 0 ? item.attr.end : end
@@ -31,10 +29,9 @@ function Parse(xmlString) {
         text: htmlDecoder(textElement.content),
         attr: {
           start: parseFloat(textElement.attributes.start),
-          end: (
+          end:
             parseFloat(textElement.attributes.start) +
-            parseFloat(textElement.attributes.dur)
-          ).toString(),
+            parseFloat(textElement.attributes.dur),
         },
       }));
 
@@ -54,10 +51,9 @@ function ParseSync(xmlString) {
     text: htmlDecoder(textElement.content),
     attr: {
       start: parseFloat(textElement.attributes.start),
-      end: (
+      end:
         parseFloat(textElement.attributes.start) +
-        parseFloat(textElement.attributes.dur)
-      ).toString(),
+        parseFloat(textElement.attributes.dur),
     },
   }));
 
