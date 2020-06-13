@@ -9,17 +9,16 @@ const FgRed = '\x1b[31m';
 
 console.log(`${FgCyan}${Bright}%s${Reset}`, 'Starting Tests...\n');
 console.time(`${FgGreen}${Bright}Finished in${Reset}`);
-let xmlFile;
-let expectedRes;
 
-try {
-  xmlFile = fs.readFileSync(`${__dirname}/testData/caption.xml`, 'utf8');
-  expectedRes = fs.readFileSync(`${__dirname}/testData/caption.vtt`, 'utf8');
-} catch (err) {
-  throw new Error(
-    `${FgRed}${Bright}Tests failed, couldn't open test data${Reset}`
-  );
-}
+const xmlFile = fs.readFileSync(`${__dirname}/testData/caption.xml`, 'utf8');
+const expectedRes = fs.readFileSync(
+  `${__dirname}/testData/caption.vtt`,
+  'utf8'
+);
+
+const resSync = xml2vtt.ParseSync(xmlFile);
+if (resSync !== expectedRes)
+  throw new Error('Tests failed, expected result does not match result');
 
 xml2vtt
   .Parse(xmlFile)

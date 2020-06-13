@@ -1,16 +1,6 @@
-const { parse } = require('fast-xml-parser');
 const htmlDecoder = require('../util/DecodeHTML.js');
-const formatTime = require('../util/FormatTime');
-
-const options = {
-  attributeNamePrefix: '$_',
-  textNodeName: '_text',
-  ignoreAttributes: false,
-  trimValues: true,
-  parseNodeValue: false,
-  parseAttributeValue: false,
-  tagValueProcessor: val => htmlDecoder(val),
-};
+const formatTime = require('../util/FormatTime.js');
+const parseXml = require('../util/parseXml.js');
 
 function Convert(newRes) {
   let vttText = 'WEBVTT\nKind: captions\n\n';
@@ -34,13 +24,16 @@ function Convert(newRes) {
 function Parse(xmlString) {
   return new Promise((resolve, reject) => {
     try {
-      const res = parse(xmlString, options, true);
-      const newRes = res.transcript.text.map(textElement => ({
-        text: textElement._text,
+      const res = parseXml(xmlString);
+      if (!res.root) throw new Error('Error while parsing xml');
+
+      const newRes = res.root.children.map(textElement => ({
+        text: htmlDecoder(textElement.content),
         attr: {
-          start: textElement.$_start,
+          start: parseFloat(textElement.attributes.start),
           end: (
-            parseFloat(textElement.$_start) + parseFloat(textElement.$_dur)
+            parseFloat(textElement.attributes.start) +
+            parseFloat(textElement.attributes.dur)
           ).toString(),
         },
       }));
@@ -54,13 +47,16 @@ function Parse(xmlString) {
 }
 
 function ParseSync(xmlString) {
-  const res = parse(xmlString, options, true);
-  const newRes = res.transcript.text.map(textElement => ({
-    text: textElement._text,
+  const res = parseXml(xmlString);
+  if (!res.root) throw new Error('Error while parsing xml');
+
+  const newRes = res.root.children.map(textElement => ({
+    text: htmlDecoder(textElement.content),
     attr: {
-      start: textElement.$_start,
+      start: parseFloat(textElement.attributes.start),
       end: (
-        parseFloat(textElement.$_start) + parseFloat(textElement.$_dur)
+        parseFloat(textElement.attributes.start) +
+        parseFloat(textElement.attributes.dur)
       ).toString(),
     },
   }));

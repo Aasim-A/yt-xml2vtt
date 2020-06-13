@@ -1,6 +1,6 @@
 # yt-xml2vtt
 
-Easily convert YouTube caption format from XML to VTT
+A tiny module to easily convert YouTube caption format from XML to VTT with ZERO dependencies.
 
 [![npm package](https://nodei.co/npm/yt-xml2vtt.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/yt-xml2vtt/)
 
