@@ -1,6 +1,6 @@
 {
   "name": "yt-xml2vtt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily convert YouTube caption format from XML to VTT",
   "main": "./src/Xml2Vtt.js",
   "types": "./typings/index.d.ts",
