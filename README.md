@@ -47,7 +47,7 @@ const xml2vtt = require('yt-xml2vtt');
 try {
   const vtt = xml2vtt.ParseSync(xmlString);
   /* DO SOMETHING WITH VTT */
-} catch(err) {
+} catch (err) {
   console.log(`Error while converting XML to VTT : ${err}`);
 }
 ```
